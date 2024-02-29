@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html
+ lang="en"
+ dir="ltr"
+ class="HTML"
+ id="index-HTML">
+
+    <head
+     class="HEAD" 
+     id="index-HEAD">
+
+        <meta
+         charset="UTF-8">
+
+        <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1.0">
+
+        <meta
+         name="color-scheme"
+         content="dark">
+
+        <link
+         rel="stylesheet"
+          href="./Assets/CSS/index-Style.css">
+    
+        <title>
+
+            ArsLearn
+
+        </title>
+
+    </head>
+
+    <body
+     class="BODY"
+     id="index-BODY">
+
+    <header
+     class="Header" 
+     id="index-Header">
+
+        <nav
+         class="Navigation"
+         id="index-Navigation-Top">
+
+         
+            <div
+             class="nasv">
+         
+                <b
+                 class="Bold" 
+                 id="index-Navigation-First_Word">
+
+                    ArsLearn
+
+                </b>
+
+                <a
+                 href="./Assets/HTML/About_Us.html"
+                 target="_blank"
+                 class="Navigation-Link"
+                 id="index-Navigation-About-Link">
+         
+                        About
+
+                </a>
+
+                <a
+                 href="./Assets/HTML/login.html"
+                 target="_blank"
+                 class="Navigation-Link"
+                 id="index-Navigation-Login-Link">
+         
+                        Login
+
+                </a>
+
+                <a
+                 href="./Assets/HTML/Main.html"
+                 target="_blank"
+                 class="Navigation-Link"
+                 id="index-Navigation-Home-Link">
+         
+                        Home
+
+                </a>
+
+                <div
+                 class="Navigation-Dropdown">
+  
+                    <button
+                     onclick="myFunction()"
+                     title="Menu"
+                     class="Navigation-Dropdown-Button">
+                        
+                        Tricks
+
+                        <svg
+                         class="SVG-Image"
+                         id="index-3Dot-SVG-Image"
+                         viewBox="0 0 24 24" 
+                         fill="none" 
+                         xmlns="http://www.w3.org/2000/svg">
+                        
+                            <path
+                             d="M12 12H12.01M12 6H12.01M12 18H12.01M13 12C13 12.5523 12.5523 13 12 13C11.4477 13 11 12.5523 11 12C11 11.4477 11.4477 11 12 11C12.5523 11 13 11.4477 13 12ZM13 18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17C12.5523 17 13 17.4477 13 18ZM13 6C13 6.55228 12.5523 7 12 7C11.4477 7 11 6.55228 11 6C11 5.44772 11.4477 5 12 5C12.5523 5 13 5.44772 13 6Z"
+                             stroke="#000000" 
+                             stroke-width="2" 
+                             stroke-linecap="round" 
+                             stroke-linejoin="round">
+
+                        </svg>
+                    
+                    </button>
+                    
+                    <div
+                     class="Navigation-Dropdown-Content"
+                     id="index-Navigation-Dropdown-Content">
+                      
+                        <a
+                         href="#home"
+                         class="Navigation-Dropdown-Link">
+                  
+                            Home
+                  
+                        </a>
+                  
+                        <a
+                         href="#about"
+                         class="Navigation-Dropdown-Link">
+                  
+                            About
+                  
+                        </a>
+                  
+                        <a
+                         href="#contact"
+                         class="Navigation-Dropdown-Link">
+                  
+                            Contact
+                  
+                        </a>
+                  
+                    </div>
+
+                </div>
+                    
+            </div>
+        
+        </nav>
+
+    </header>
+
+    <main
+     class="MAIN">
+
+        <section
+         class="ArsLearn">
+
+            {% block Content %}
+
+            {% endblock Content %}
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    
+
+    </body>
+
+</html>
